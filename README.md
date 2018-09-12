@@ -8,3 +8,5 @@
 - __Audio peripherals__
 	- External speakers with 3.5mm jack
 	- USB microphone 
+	
+[Installation Process on Raspberry Pi](InstallationAlexaPi.md)
