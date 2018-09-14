@@ -60,3 +60,7 @@ def gpio_control(value):
 Sample LED On/Off program can be [GPIO_OnOff](gpio_onoff.py).
 - Save the program with any name. 
 - This program cannot be run in the IDE as the flask server does not support this. So, open a terminal and start the flask server from here. For example, ‘sudo python gpio_onoff.py’.
+
+This will start the flask server from which the Alexa skill can talk with the python script and call the function.
+
+Make sure to keep the ngrok and flask server terminals open. The only thing left is to fire up Alexa and say “Alexa, ask raspberry pi to turn led on”. 
