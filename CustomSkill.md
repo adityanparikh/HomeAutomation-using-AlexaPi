@@ -64,3 +64,15 @@ Sample LED On/Off program can be [GPIO_OnOff](gpio_onoff.py).
 This will start the flask server from which the Alexa skill can talk with the python script and call the function.
 
 Make sure to keep the ngrok and flask server terminals open. The only thing left is to fire up Alexa and say “Alexa, ask raspberry pi to turn led on”. 
+
+As mentioned above there are two modes of the Raspberry Pi GPIO pins; Board and BCM. 
+
+BCM is more conventionally used with the Raspberry Pi. In the program above pin 18 is set as output pin so the led should be connected across pin 18 and ground. Also, for safety purposes connect a resistor between the LED and the pin as the GPIO pin’s output is 5v which not LEDs can take.
+
+Features like PWM are limited to pin 12, 13 and 18.
+In detail pin diagram is available at ```https://pinout.xyz/```.
+
+GPIO package is not installed by default in Raspberry Pi. So, in the first step, the package was already installed. Now this enables the use of GPIO pins in python programming as well as to manually change the pin status i.e. read/write directly from the terminal.
+
+To write, open a terminal and enter ‘gpio -g write 18 1’, this will make pin 18(BCM) high.
+To read, enter ‘gpio -g read 18’, this will print the status of pin 18, either 1 or 0.
