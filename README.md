@@ -9,4 +9,5 @@
 	- External speakers with 3.5mm jack
 	- USB microphone 
 	
+### [How to use Raspberry Pi with a Laptop](HowToWithLaptop.md)
 ### [Installation Process on Raspberry Pi](InstallationAlexaPi.md)
