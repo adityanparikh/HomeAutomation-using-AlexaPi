@@ -60,6 +60,8 @@ def gpio_control(value):
 } 
 ```
 
+![alt text](https://github.com/adityanparikh/HomeAutomation-using-AlexaPi/blob/master/Flowchart.jpg)
+
 Sample LED On/Off program can be [GPIO_OnOff](gpio_onoff.py).
 - Save the program with any name. 
 - This program cannot be run in the IDE as the flask server does not support this. So, open a terminal and start the flask server from here. For example, ‘sudo python gpio_onoff.py’.
@@ -74,6 +76,8 @@ BCM is more conventionally used with the Raspberry Pi. In the program above pin 
 
 Features like PWM are limited to pin 12, 13 and 18.
 In detail pin diagram is available at ```https://pinout.xyz/```.
+
+![alt text](https://github.com/adityanparikh/HomeAutomation-using-AlexaPi/blob/master/PinD.png)
 
 GPIO package is not installed by default in Raspberry Pi. So, in the first step, the package was already installed. Now this enables the use of GPIO pins in python programming as well as to manually change the pin status i.e. read/write directly from the terminal.
 
