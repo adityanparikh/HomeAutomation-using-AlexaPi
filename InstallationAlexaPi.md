@@ -67,3 +67,5 @@ echo "starting wake word agent" >> alexa_startup.out
 - The sleep time may vary from user to user so it is advised to test and make note of the time taken by each step and change the sleep time in the script. The sleep time is very important to make sure the commands never overlap each other’s process.
 - Change the file path in the script if the installation is in some other location. Save this file as something like ‘alexa_startup.sh’
 - To run this script, go to the location where this script is saved and open a terminal to that location and enter ‘./alexa_startup.sh’. Wait for the script to run and every other step is the same from there on.
+
+You can download the script directly from [here](alexa_startup.sh).
