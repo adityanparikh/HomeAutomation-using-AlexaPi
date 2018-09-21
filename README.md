@@ -12,3 +12,4 @@
 ### [How to use Raspberry Pi with a Laptop](HowToWithLaptop.md)
 ### [Installation Process on Raspberry Pi](InstallationAlexaPi.md)
 ### [Create Custom Skills with Amazon Alexa](CustomSkill.md)
+### [Circuitry to Control AC Load](ACRegulator.md)
