@@ -18,6 +18,9 @@ Ngrok is a program that opens up a secure tunnel behind an HTTPS endpoint. Ngrok
 - The download file will be a zip file. Open a terminal and enter unzip ```/home/pi/ngrok-stable-linux-arm.zip```
 - Ngrok is set up now so to run it open up a terminal and enter ```sudo ./ngrok http 5000```
 - There will be two URLs generated as ngrok is started. In most cases both the addresses would be same but if not make note of the https one.
+
+![alt text](https://github.com/adityanparikh/HomeAutomation-using-AlexaPi/blob/master/Ngrok.png)
+
 - Go to the skill on the developer console. In the navigation panel, go to Endpoint and enter this address in the default region as ```https://edfaa975.ngrok.io``` and click save.
 
 #### Python Programming  
