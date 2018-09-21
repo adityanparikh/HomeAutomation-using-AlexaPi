@@ -14,5 +14,8 @@
 ### [Create Custom Skills with Amazon Alexa](CustomSkill.md)
 ### [Circuitry to Control AC Load](ACRegulator.md)
 
-A full Python code for Intensity control of a Bulb can be found [here](BulbControl.py).
+
+
+
+A full Python code for Intensity control of a Bulb can be found [here](BulbControl.py).  
 For any other applications refer the above code and make the necessory changes.
